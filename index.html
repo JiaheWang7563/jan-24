@@ -3,15 +3,15 @@
 
 
 function randomColor(){
-  const r = Math.ramdom()*255
-  const g = Math.ramdom()*255
-  const b = Math.ramdom()*255
+  const r = Math.random()*255
+  const g = Math.random()*255
+  const b = Math.random()*255
   const color = `rgb(${r},${g},${b})`
   return color
 }
 
 
-document.body.style.backgroundColor ='red'
+document.body.style.backgroundColor = randomColor()
 
 
 
